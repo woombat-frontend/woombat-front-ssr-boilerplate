@@ -1,0 +1,29 @@
+{
+  "name": "woombat-template-ssr",
+  "version": "1.0.0",
+  "description": "boilerplate for react next ssr application",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build": "next build",
+    "n-start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woombat-frontend/woombat-front-ssr-boilerplate.git"
+  },
+  "author": "ronald prato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woombat-frontend/woombat-front-ssr-boilerplate/issues"
+  },
+  "homepage": "https://github.com/woombat-frontend/woombat-front-ssr-boilerplate#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
